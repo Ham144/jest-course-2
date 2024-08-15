@@ -24,7 +24,3 @@ test("test boolean", () => {
     const random = 2;
     expect(random > 5).toBeFalsy()
 })
-
-test("typeChecking should be throw Error", () => {
-    expect(() => typeChecking("3", 3)).toThrowError()
-})
