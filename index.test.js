@@ -110,3 +110,13 @@ test("testing fetchingExample function to be return object", async () => {
     const response = await fetchingExample()
     expect(response != null && response != {}).toBeTruthy()
 })
+
+describe('test', () => {
+    test('the funtion calling should be turn to be an error', () => {
+        expect(() => nonCreatedFunc()).toThrow();
+    })
+});
+
+jest("description for the test", () => {
+    expext(0.2 + 0.1 === 0.3).toBeFalsy()
+})
